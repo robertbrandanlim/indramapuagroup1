@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Educational Background</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--<script async src="https://static.addtoany.com/menu/page.js"></script>-->
+
+    <link rel="stylesheet" href="Assist.css">
+</head>
+<body>
+
+<div class="container">
+
+    <form>
+      <div class="row">
+        <div class="col">
+            <h2> Educational Background </h2>
+        </div>
+        <div class="col">
+          <h4> People are at the core of our business </h4>
+          <h6> (*) Required Fields </h6>
+        </div>
+      </div>
+    </form>
+
+
+
+
+    <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Graduate Studies Education">
+          <input type="text" class="form-control" placeholder="College Degree">
+          <input type="text" class="form-control" placeholder="High School Degree">
+
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="School">
+          <input type="text" class="form-control" placeholder="School">
+        </div>
+
+        <div class="col">
+            <input type="text" class="form-control" placeholder="Completed Year">
+            <input type="text" class="form-control" placeholder="Completed Year">
+            <input type="text" class="form-control" placeholder="Completed Year">
+        </div>
+      </div>
+    </form>
+
+    <br>
+    <br>
+    <input id="EmpAtleastOnceCheck_tag" type="checkbox" name="EmpCheckAns_var"><label for="EmpAtleastOnceCheck_tag"> Check if you were employed at least once</label>
+    <br>
+    <br>
+
+    <form>
+      <div class="row">
+        <div class="col">
+          <h2> Employment History (Latest to Oldest) </h2>
+        </div>
+      </div>
+    </form>
+
+        <form>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Company Name">
+          <input type="text" class="form-control" placeholder="Position">
+
+
+        </div>
+        <div class="col">
+          <input type="number" class="form-control" placeholder="Mobile No">
+          <input type="text" class="form-control" placeholder="Company Address">
+        </div>
+
+        <div class="col">
+            <label for="DateFrom_tag"><h5>Date(From):</h5></label>
+            <input id="DateFrom_tag" type="date" class="form-control" placeholder="Date(From):">
+            <label for="DateTo_tag"><h5>Date(To):</h5></label>
+            <input id="DateTo_tag" type="date" class="form-control" placeholder="Date(To):">
+
+        </div>
+      </div>
+    </form>
+
+
+
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1"><h4>Reasons for leaving:</h4></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+
+
+
+    <p id="BUT123"><input type="submit" value=">>"></p>
+
+    <!--<div class="a2a_kit a2a_kit_size_32 a2a_default_style">-->
+        <!--<a class="a2a_button_facebook"></a>-->
+        <!--<a class="a2a_button_twitter"></a>-->
+        <!--<a class="a2a_button_pinterest"></a>-->
+        <!--<a class="a2a_dd" href="https://www.addtoany.com/share"></a>-->
+    <!--</div>-->
+</div>
+</body>
+</html>
