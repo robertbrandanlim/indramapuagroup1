@@ -4,9 +4,12 @@ h6{
 
 }
 
-body{
-    background-image : url('pic1.jpg');
+
+
+div{
+    /*background-image : url('pic1.jpg');*/
     background-repeat:no-repeat center center fixed;
+    margin-bottom: 5px;
 
 }
 
@@ -17,6 +20,38 @@ p.Format{
 h2{
     color:Black;
     font-family:Noe Display Regular;
+/*    text-decoration: underline;
+    text-decoration-color: #feb236;*/
+
+}
+
+#title4 {
+
+
+
+    border-bottom: 5px solid #e6b800;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin: 0;
+
+}
+
+#title3 {
+
+
+    margin-top: 5rem;
+    border-bottom: 5px solid #e6b800;
+    display: inline-block;
+    padding-bottom: 2px;
+    margin: 0;
+
+
+}
+
+
+h2.EMPHIS{
+    color:Black;
+    font-family:Noe Display Regular;
 
 }
 
@@ -24,6 +59,10 @@ h4{
     color:Black;
     font-family:Noe Display Regular;
     text-align: right
+
+
+
+
 }
 
 
@@ -36,3 +75,27 @@ h5{
 BUT123{
   display: flex;
 }
+
+p.text_title{
+    color:black;
+    line-height: 24px;
+    font-family:Noe Sans
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+
+}
+
+label1{
+    float:right;
+}
+
+input.check1{
+    margin: 5px 0px;
+    float:right;
+    font-family:Noe Sans
+}
+
