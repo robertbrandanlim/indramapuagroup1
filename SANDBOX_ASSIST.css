@@ -1,0 +1,86 @@
+div {
+    /*background-image : url('pic1.jpg');*/
+/*
+    background-repeat:no-repeat center center fixed;
+*/
+
+
+
+
+    overflow: hidden;
+}
+
+div.one{
+    background-color: #0384fc;
+        border:1px solid black;
+}
+
+div.two{
+    background-color: #c65ef2;
+        border:1px solid black;
+}
+
+div.three{
+    background-color: #f739bb;
+    border:1px solid black;
+    /*float: center;*/
+}
+
+div.col-md1{
+    background-color: #faed5a;
+
+
+/*    overflow: hidden;*/
+
+}
+
+div.col-md-6{
+
+
+}
+#col1{
+    background-color: #a39926 !important;
+    border:1px solid black;
+}
+#col2{
+    background-color: #7da0b5 !important;
+    border:1px solid black;
+}
+
+
+
+
+div.modal-content{
+
+    border:1px solid black;
+}
+
+
+
+#mymodal{
+
+}
+
+#MODAL_HEADER{
+    background-color: #e62740 !important;
+}
+
+#MODAL_BODY{
+    background-color: #abffe7 !important;
+}
+
+#MODAL_FOOTER{
+    background-color: #a39926 !important;
+}
+
+textarea {
+   resize: none;
+   float: center;
+   width: 400px;
+   height: 100px;
+
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+}
